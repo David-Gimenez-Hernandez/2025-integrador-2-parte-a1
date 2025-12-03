@@ -13,7 +13,7 @@ public class File {
 	/*
 	 * Constructor
 	 */
-    public File() {
+    public File(FileType type) {
 		this.type = Objects.requireNonNull(type, "type no puede ser null");
 		this.content = new ArrayList<>(); // vacío, pero NO nul
 
@@ -96,5 +96,16 @@ public class File {
     	return content;
     	
     }
-    
+
+
+	// Métodos auxiliares (opcionales)
+	public FileType getType() {
+		return type;
+	}
+
+	public int size() {
+		return content.size();
+	}
+
+
 }
