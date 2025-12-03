@@ -1,0 +1,5 @@
+es\upm\grise\profundizacion\file\FileUtils.class
+es\upm\grise\profundizacion\file\WrongFileTypeException.class
+es\upm\grise\profundizacion\file\InvalidContentException.class
+es\upm\grise\profundizacion\file\File.class
+es\upm\grise\profundizacion\file\FileType.class
